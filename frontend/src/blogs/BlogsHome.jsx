@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../components/shared/Navbar';
 import whatisreact from '/src/assets/Blogs/Why-Use-React.jpg';
 import nodejs from '/src/assets/Blogs/nodejs.jpg';
-import expressjs from '/src/assets/Blogs/expressjs.jpg';
+import expressjs from '/src/assets/Blogs/nodejs.jpg';
 
 function BlogsHome() {
   // Initialize an array to handle the readMore state for each blog
