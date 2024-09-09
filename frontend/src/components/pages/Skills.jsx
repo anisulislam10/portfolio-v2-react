@@ -10,7 +10,7 @@ import mysql from './../../assets/skills/mysql.png'
 import reactNative from './../../assets/skills/react-native.png'
 import Jest from './../../assets/skills/jest.png'
 import Git from './../../assets/skills/git.png'
-import JavaScript from './../../assets/skills/JavaScript.png'
+import Javascrpitprogramming from './../../assets/skills/JavaScript.png'
 import TS from './../../assets/skills/typescript.png'
 import boot from './../../assets/skills/boot.png'
 import firebase from './../../assets/skills/firebase.png'
@@ -37,7 +37,7 @@ function Skills({showNavbar = true}) {
         <div className='grid grid-cols-5 max-w-[700px] items-center text-center mx-[300px] mt-5 gap-[50px] '>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'> <img src={HTML} alt="" width="50%" className='ml-6 pt-5'/>HTML5</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={CSS} alt="" width="50%" className='ml-6 pt-5'/>CSS3</h1>
-          <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={JavaScript} alt="" width="50%" className='ml-6 pt-5'/>JavaScript</h1>
+          <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={Javascrpitprogramming} alt="" width="50%" className='ml-6 pt-5'/>JavaScript</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={ReactIMG} alt="" width="50%" className='ml-6 pt-5'/>React JS</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-start text-center '><img src={Tailwind} alt="" width="50%" className='ml-6 pt-5 '/>Tailwind CSS</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={node} alt="" width="50%" className='ml-6 pt-5'/>Node JS</h1>
