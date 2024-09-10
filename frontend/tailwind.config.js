@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      'xsm': '1px',
+      'xsm': '300px',
       // => @media (min-width: 1px) { ... }
 
       'sm': '576px',

@@ -20,7 +20,7 @@ function BlogsHome() {
       <div>
         <Navbar />
       </div>
-      <div className='grid grid-cols-3 items-center text-center gap-4'>
+      <div className='md:grid md:grid-cols-3 items-center text-center gap-4 xsm:grid xsm:grid-cols-2'>
         {/* Blog 1: What is React.js? */}
         <div className='shadow-lg font-bold rounded-xl mt-5 ml-5 text-left'>
           <img src={whatisreact} alt="What is React.js?" width="100%" className='px-4 rounded-lg hover:bg-slate-400' />

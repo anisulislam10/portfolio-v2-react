@@ -8,7 +8,7 @@ import programmer from './../../assets/skills/programmer.png'
 
 function Aboutme() {
   return (
-    <div className='grid grid-cols-3 gap-6 my-4 mx-6'>
+    <div className='md:grid md:grid-cols-3 md:gap-6 md:my-4 md:mx-6 xsm:grid xsm:grid-cols-1'>
       <div className='shadow-2xl text-start mx-7 border-2 border-orange-500 px-5'>
         <img src={frontend} alt="" width="30%" className=' ml-[100px] m  pb-1 text-blue-50 font-medium'/>
         <h1 className='text-center bg-blue-50 font-bold'>Anisul Islam</h1>

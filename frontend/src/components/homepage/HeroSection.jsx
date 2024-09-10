@@ -40,30 +40,30 @@ function HeroSection() {
 
   return (
     <div>
-      <div className='bg-gradient-to-r from-blue-300 to-[#FF9F5F] grid grid-cols-2'>
+      <div className='bg-gradient-to-r from-blue-300 to-[#FF9F5F] md:grid md:grid-cols-2 xsm:grid xsm:grid-cols-2 '>
         <div>
           <img 
             src={HeroSectionPitcture} 
             alt="Header" 
             width="70%" 
-            className='ml-[700px] hover:shadow-2xl hover:rounded-sm ' 
+            className='md:ml-[700px] md:mt-[-1px]  xsm:ml-[330px] xsm:mt-[190px]' 
           />
         </div>
-        <div className='flex flex-col items-start ml-10'>
-          <h1 className='text-white text-[50px] font-semibold ml-[-500px] mt-[100px]'>
+        <div className='md:flex md:flex-col md:items-start md:ml-10 xsm:flex xsm:flex-col xsm:items-center xsm:ml-[10px]'>
+          <h1 className='text-white md:text-[50px] md:font-semibold md:ml-[-480px] mt-[100px] xsm:text-[25px] xsm:ml-[-480px] '>
             HI, I am
           </h1>
-          <p className='bg-gradient-to-r from-blue-300 to-[#FF9F5F] text-white text-[40px] font-semibold rounded-md shadow-md ml-[-500px] px-5'>
+          <p className='bg-gradient-to-r from-blue-300 to-[#FF9F5F] text-white md:text-[40px] font-semibold rounded-md md:shadow-md md:ml-[-500px] md:px-5 xsm:text-[25px] xsm:ml-[-480px]'>
             ANISUL ISLAM
           </p>
-          <span className=' text-[#faece3] text-[30px] font-semibold mt-4 ml-[-470px]'>
-             {text} <span className='text-orange-300'>|</span>
+          <span className=' text-[#faece3] md:text-[30px] font-semibold mt-4 md:ml-[-470px] xsm:text-[20px]' >
+             {text} <span className=' md:ml-[2px] text-orange-300 xsm:ml-[600px] '>|</span>
           </span>
-          <div className='grid grid-cols-4 gap-4 mt-10 ml-[-400px] text-white'>
-          <h1 className='shadow-2xl'> <a href="mailto:anis.inbox10@gmail.com"> <AlternateEmailIcon className="text-white hover:text-orange-400 transition-all duration-300 ease-in-out shadow-xl bg-blue-500 rounded-md px-1"  /> </a> </h1>
-          <h1><a href="https://www.github.com/anisulislam10"> <GitHubIcon className="text-white hover:text-orange-400 transition-all duration-300 ease-in-out shadow-xl bg-blue-500 rounded-md px-1" /></a> </h1>
-          <h1> <a href="https://linkedin.com/in/ianisulislam"><LinkedInIcon  className="text-white hover:text-orange-400 transition-all duration-300 ease-in-out shadow-xl bg-blue-500 rounded-md px-1" /> </a></h1>
-          <h1><a href="https://facebook.com/ianisulislam"><FacebookIcon  className="text-white hover:text-orange-400 transition-all duration-300 ease-in-out shadow-xl bg-blue-500 rounded-md px-1" /></a></h1>
+          <div className='grid grid-cols-4 gap-4 mt-10 ml-[-400px] text-white xsm:mr-[100px] xsm:ml-[-480px] xsm:mt-16'  >
+          <h1 className='md:shadow-2xl'> <a href="mailto:anis.inbox10@gmail.com"> <AlternateEmailIcon className="text-white hover:text-orange-400 transition-all duration-300 ease-in-out shadow-xl bg-blue-500 rounded-md px-1"  /> </a> </h1>
+          <h1><a href="https://www.github.com/anisulislam10"> <GitHubIcon className="md:text-white md:hover:text-orange-400 md:transition-all md:duration-300 md:ease-in-out shadow-xl bg-blue-500 md:rounded-md px-1" /></a> </h1>
+          <h1> <a href="https://linkedin.com/in/ianisulislam"><LinkedInIcon  className="md:text-white md:hover:text-orange-400 md:transition-all md:duration-300 md:ease-in-out md:shadow-xl bg-blue-500 md:rounded-md px-1" /> </a></h1>
+          <h1><a href="https://facebook.com/ianisulislam"><FacebookIcon  className="md:text-white md:hover:md:text-orange-400 md:transition-all md:duration-300 md:ease-in-out md:shadow-xl bg-blue-500 md:rounded-md px-1" /></a></h1>
           </div>
         </div>
 
