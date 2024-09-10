@@ -4,8 +4,8 @@ import { Link, NavLink } from 'react-router-dom'
 function Navbar() {
   return (
     <div className='bg-gradient-to-r from-blue-500  to-[#FF9F5F] pt-7 pb-5'>
-        <div className='text-white ml-[420px] mr-[100px]'>
-        <ul className='grid grid-cols-5 grid-flow-row text-center font-medium '>
+        <div className='text-white ml-[420px] mr-[100px] xsm:ml-[1px] xsm:mr-[4px]'>
+        <ul className='grid grid-cols-5 grid-flow-row text-center font-medium xsm:font-normal '>
             <li> <NavLink  to="/about" 
           className={({ isActive }) => isActive ? "text-orange-900 " : ""}>Home</NavLink></li>
             <li><NavLink to="/skills" 

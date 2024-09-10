@@ -32,9 +32,9 @@ function Skills({showNavbar = true}) {
     
     <div className='items-center text-center bg-orange-50 mt-3'>
         <div className=''>
-          <h1 className='text-orange-400 text-[30px] font-bold py-4 mx-[550px] '>SKILLS</h1>
+          <h1 className='text-orange-400 text-[30px] font-bold py-4 mx-[550px] xsm:ml-[10px]'>SKILLS</h1>
         </div>
-        <div className='grid grid-cols-5 max-w-[700px] items-center text-center mx-[300px] mt-5 gap-[50px] '>
+        <div className='grid grid-cols-5 max-w-[700px] items-center text-center mx-[300px] mt-5 gap-[50px] xsm:grid xsm:grid-cols-2 xsm:mx-1'>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'> <img src={HTML} alt="" width="50%" className='ml-6 pt-5'/>HTML5</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={CSS} alt="" width="50%" className='ml-6 pt-5'/>CSS3</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={Javascrpitprogramming} alt="" width="50%" className='ml-6 pt-5'/>JavaScript</h1>
@@ -55,11 +55,11 @@ function Skills({showNavbar = true}) {
 
 
       <div className='items-center text-center bg-white mt-3'>
-      <h1 className='text-orange-400 text-[30px] font-bold py-1 mx-[550px] '> Learning</h1>
+      <h1 className='text-orange-400 text-[30px] font-bold py-1 mx-[550px] xsm:ml-[10px]'> Learning</h1>
 
    
 
-    <div className='grid grid-cols-7 items-center text-center px-[100px]  mt-1  bg-orange-100 py-2 '>
+    <div className='grid grid-cols-7 items-center text-center px-[100px]  mt-1  bg-orange-100 py-2 xsm:grid xsm:grid-cols-2 xsm:px-1 xsm:gap-5'>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'> <img src={TS} alt="" width="30%" className='ml-10 mt-3  '/>TypeScript</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={firebase} alt="" width="30%" className='ml-10 mt-3 '/>Firebase</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={boot} alt="" width="30%" className='ml-10 mt-3 '/>Bootstrap</h1>
