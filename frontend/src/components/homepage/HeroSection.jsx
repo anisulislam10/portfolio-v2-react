@@ -46,7 +46,7 @@ function HeroSection() {
             src={HeroSectionPitcture} 
             alt="Header" 
             width="70%" 
-            className='md:ml-[700px] md:mt-[-1px]  xsm:ml-[190px] xsm:mt-[230px]' 
+            className='md:ml-[500px] md:mt-[100px]  xsm:ml-[190px] xsm:mt-[230px]' 
           />
         </div>
         <div className='md:flex md:flex-col md:items-start md:ml-10 xsm:flex xsm:flex-col xsm:items-center xsm:ml-[200px]'>

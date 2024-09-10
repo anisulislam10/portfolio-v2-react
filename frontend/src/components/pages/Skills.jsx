@@ -59,7 +59,7 @@ function Skills({showNavbar = true}) {
 
    
 
-    <div className='md:grid md:grid-cols-7 md:items-center md:text-center md:px-[100px]  md:mt-1  md:bg-orange-100 md:py-2 xsm:grid xsm:grid-cols-2 xsm:px-1 xsm:gap-5'>
+    <div className='md:grid md:grid-cols-4 md:items-center md:text-center md:px-[100px]  md:mt-1  md:bg-orange-100 md:py-2 xsm:grid xsm:grid-cols-2 xsm:px-1 xsm:gap-5'>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'> <img src={TS} alt="" width="30%" className='ml-10 mt-3  '/>TypeScript</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={firebase} alt="" width="30%" className='ml-10 mt-3 '/>Firebase</h1>
           <h1 className='text-blue-600 text-[20px] shadow-xl items-center text-center'><img src={boot} alt="" width="30%" className='ml-10 mt-3 '/>Bootstrap</h1>
