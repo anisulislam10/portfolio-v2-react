@@ -6,7 +6,7 @@ import { Link, NavLink } from 'react-router-dom'
 function Footer({showNavbar = true}) {
   return (
     <div>
-      <div className='md:grid md:grid-cols-3 mt-7 content-center text-center bg-blue-400 text-white px-[70px] xsm:grid xsm:grid-cols-2 xsm:pr-[10px] xsm:text-start xsm:items-start'>
+      <div className='md:grid md:grid-cols-3 mt-7 content-center text-center bg-blue-400 text-white px-[70px] xsm:grid xsm:grid-cols-2 xsm:pr-[10px] xsm:text-start xsm:items-start sm:grid sm:grid-cols-3'>
 
         <div>
           <h1 className='font-semibold text-[20px] underline '>Quick Links</h1>
